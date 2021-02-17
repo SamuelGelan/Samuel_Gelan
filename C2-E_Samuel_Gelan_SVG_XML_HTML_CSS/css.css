@@ -1,0 +1,201 @@
+@media (min-width: 100px) {
+    .container-1 {
+      display: flex;
+      flex-direction: row;
+    }
+    h1 {
+      color: white;
+    }
+    h2 {
+      color: white;
+    }
+  }
+  body {
+    background-color: #010120;
+    padding: 7%;
+    padding-top: 5%;
+    flex-direction: row;
+    flex-flow: row;
+  }
+  .box-0 {
+    flex: 1;
+    order: 1;
+    flex-direction: row;
+    flex-flow: row;
+    padding-left: 0%;
+    align-content: flex-start;
+  }
+  .box-1 {
+    flex: 2;
+    order: 2;
+    flex-direction: row;
+    flex-flow: row;
+  }
+  .box-2 {
+    flex:  3;
+    order: 2;
+    padding: 8%;
+    padding-top: 1%;
+    flex-direction: row;
+    flex-flow: row;
+    color: white;
+    align-self: flex-start;
+  }
+  .dev1 {
+    fill: black;
+  }
+  .dev2 {
+    fill: black;
+  }
+  .removed {
+    display: none;
+  }
+  .names {
+    width: 15%;
+  }
+  button {
+    color: white;
+    background: gray;
+    border: none;
+    padding: 15px 32px;
+    outline: none;
+    /* width: 5%; */
+    text-align: left;
+    display: -moz-inline-grid;
+    text-align: center;
+    text-decoration: mediumturquoise;
+  }
+  .box-0 {
+    flex-basis: 10%;
+  }
+  
+  .box-1 {
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box-2 {
+    flex-basis: 70%;
+  }
+  .align {
+    text-align: start;
+  }
+  #amhara{
+    color: green;
+    fill:green;
+  }
+  #afar{
+    color: blue;
+    fill: blue;
+  }
+  #tigray{
+    color: red;
+    fill: red;
+  }
+  #ghambela{
+    color: blueviolet;
+    fill: blueviolet;
+  }
+  #oromia{
+    color: rgb(14, 124, 250);
+    fill: rgb(14, 124, 250);
+
+  }
+  #beni{
+    color: rgb(58, 2, 2);
+    fill: rgb(58, 2, 2) ;
+  }
+  #somale{
+    color: rgb(255, 0, 191);
+    fill: rgb(255, 0, 191);
+  }
+  .image {
+    justify-items: auto;
+  }
+  .text-paragraph {
+    justify-content: center;
+    color: aliceblue;
+  }
+  polygon {
+    fill: white;
+    transition: ease-out;
+  }
+  polygon:hover {
+    fill: burlywood;
+  }
+  .harerghe {
+    stroke: yellow;
+    stroke-width: 1px;
+    stroke-dasharray: 1;
+    fill: rgb(255, 255, 255, 5);
+    fill-opacity: 50%;
+  }
+  .Tigray {
+    stroke: rgb(230, 179, 179);
+    stroke-width: 1px;
+    stroke-dasharray: 1;
+    fill: rgb(255, 255, 255, 5);
+    fill-opacity: 10%;
+  }
+  .Amhara {
+    stroke: goldenrod;
+    stroke-width: 1px;
+    stroke-dasharray: 1;
+    fill: rgb(255, 255, 255, 5);
+    fill-opacity: 50%;
+  }
+  .Oromia {
+    stroke: olive;
+    stroke-width: 1px;
+    stroke-dasharray: 1;
+    fill: rgb(255, 255, 255, 5);
+    fill-opacity: 10%;
+  }
+  .snnpr {
+    stroke: lawngreen;
+    stroke-width: 1px;
+    stroke-dasharray: 1;
+    fill: rgb(255, 255, 255, 5);
+    fill-opacity: 10%;
+  }
+  
+  .removed {
+    display: none;
+  }
+  button {
+    position: relative;
+    color: rgb(3, 5, 73);
+    font-size: 12pt;
+    background: rgb(197, 216, 26);
+    border: firebrick;
+    outline: none;
+    left: 0%;
+    width: 160px;
+    text-align: left;
+  }
+  button.hover {
+    fill: rgb(180, 52, 13);
+}
+.button {
+    text-decoration: none;
+    color: rgb(29, 243, 250);
+    font-style: italic;
+    font-size: 15pt;
+    background-size: content: '\f01e';0%;
+    background-color: rgba(8, 70, 40, 0.5);
+    padding: 1%;
+  }
+  .button:hover {
+    color: red;
+    background-color: rgb(3, 4, 53);
+}
+.a {
+    text-decoration-line: ;
+    color: black;
+    font-style: italic;
+    font-size: 15pt;
+    background-size: 100%;
+    background-color: white;
+    padding: 1%;
+}
